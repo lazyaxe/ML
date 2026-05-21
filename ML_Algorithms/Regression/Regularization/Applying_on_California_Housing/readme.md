@@ -39,50 +39,45 @@ Cross val score: ~0.57
 
 
 #### Benchmarks(Before Hyperparameter Tuning):
-`Ridge RMSE Score:` 70662.20406085561
-`Lasso RMSE Score:` 70643.5589479336
-`ElasticNet RMSE Score:` 79726.58587785337
-`Linear RMSE Score:` 70641.9927245615
-
-`Ridge R2 Score:` 0.6106417945342879
-`Lasso R2 Score:` 0.6108472415630742
-`ElasticNet R2 Score:` 0.5043429293305954
-`Linear R2 Score:` 0.6108644970184367
-
-`Ridge Cross validation R2 Score:` 0.623271782052597
-`Lasso Cross validation R2 Score:` 0.6233070635724488
-`ElasticNet Cross validation R2 Score:` 0.6233070635724488
-`Linear Cross validation R2 Score:` 0.623307063572448
+`Ridge RMSE Score:` 70662.20406085561<br>
+`Lasso RMSE Score:` 70643.5589479336<br>
+`ElasticNet RMSE Score:` 79726.58587785337<br>
+`Linear RMSE Score:` 70641.9927245615<br>
+`Ridge R2 Score:` 0.6106417945342879<br>
+`Lasso R2 Score:` 0.6108472415630742<br>
+`ElasticNet R2 Score:` 0.5043429293305954<br>
+`Linear R2 Score:` 0.6108644970184367<br>
+`Ridge Cross validation R2 Score:` 0.623271782052597<br>
+`Lasso Cross validation R2 Score:` 0.6233070635724488<br>
+`ElasticNet Cross validation R2 Score:` 0.6233070635724488<br>
+`Linear Cross validation R2 Score:` 0.623307063572448<br>
 <br>
 
 
 #### Benchmarks(After Hyperparameter Tuning):
 
-`Ridge RMSE Score:` 70738.64039255804 
-`Lasso RMSE Score:` 70777.11988595528 
-`ElasticNet RMSE Score:` 70777.16539593672 
-`Linear RMSE Score:` 70641.9927245615 
+`Ridge RMSE Score:` 70738.64039255804 <br>
+`Lasso RMSE Score:` 70777.11988595528 <br>
+`ElasticNet RMSE Score:` 70777.16539593672 <br>
+`Linear RMSE Score:` 70641.9927245615 <br>
 
-`Ridge R2 Score:` 0.6097989901000448 
-`Lasso R2 Score:` 0.6093743616123537 
-`ElasticNet R2 Score:` 0.6093738592643834 
-`Linear R2 Score:` 0.6108644970184367 
-
-`Ridge Cross validation R2 Score:` 0.623271782052597
-`Lasso Cross validation R2 Score:` 0.6233070635724488
-`ElasticNet Cross validation R2 Score:` 0.6233070635724488
-`Linear Cross validation R2 Score:` 0.6233070635724488
+`Ridge R2 Score:` 0.6097989901000448 <br>
+`Lasso R2 Score:` 0.6093743616123537 <br>
+`ElasticNet R2 Score:` 0.6093738592643834 <br>
+`Linear R2 Score:` 0.6108644970184367 <br>
+`Ridge Cross validation R2 Score:` 0.623271782052597<br>
+`Lasso Cross validation R2 Score:` 0.6233070635724488<br>
+`ElasticNet Cross validation R2 Score:` 0.6233070635724488<br>
+`Linear Cross validation R2 Score:` 0.6233070635724488<br>
 <br>
 
 #### `GridSearchCV` and `RandomizedSearchCV` results
-`Ridge Best params:` {'model__alpha': np.float64(9.183673469387756)} 
-`Ridge Best R2 score`: 0.6234735437325709 
-`Lasso Best params:` {'model__alpha': np.float64(24.491836734693877)} 
-`Lasso Best R2 score`: 0.6234713386516938 
-`ElasticNet Best params:` {'model__l1_ratio': np.float64(1.0), 'model__alpha': np.float64(29.183673469387756)}
-`ElasticNet Best R2 score:` 0.6234712997159871
-
-<br>
+`Ridge Best params:` {'model__alpha': np.float64(9.183673469387756)} <br>
+`Ridge Best R2 score`: 0.6234735437325709 <br>
+`Lasso Best params:` {'model__alpha': np.float64(24.491836734693877)} <br>
+`Lasso Best R2 score`: 0.6234713386516938 <br>
+`ElasticNet Best params:` {'model__l1_ratio': np.float64(1.0), 'model__alpha': np.float64(29.183673469387756)}<br>
+`ElasticNet Best R2 score:` 0.6234712997159871<br>
 <br>
 
 #### Key Mistakes/Takeaways:
