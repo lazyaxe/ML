@@ -1,5 +1,13 @@
 ### Analysis of implementing Simple Linear Regression in Python using NumPy and Pandas:
 Here, i have implemented the simple linear regression function in Python using NumPy and Pandas and tested my implementation on a toy dataset compared it with Scikit-Learn.
+
+### $\hat{y}_i = {\beta}_0 + {\beta}_1 X_i$
+
+#### Where,
+#### ${\beta}_1 = \sum_{i=1}^{n}\frac{(x_i - \bar{x})(y_i - \bar{y})}{(x_i - \bar{x})^2}$
+
+#### ${\beta}_0 = \bar{y} - {\beta}_1 \bar{x}$
+
 #### Benchmark of comparasion of My implementation vs Scikit-Learn's Implementation of Simple Linear Regression:
 1. Intercept: `My` = 23437.21046340505 vs `Sklearn` = 23437.21046340505
 2. Coefficient: `My` = 9569.586885432866 `Sklearn` = 9569.58688543
